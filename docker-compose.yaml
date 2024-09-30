@@ -1,0 +1,7 @@
+services:
+  bash:
+    container_name: bash
+    build:
+      context: .
+    volumes:
+      - .:/workdir
